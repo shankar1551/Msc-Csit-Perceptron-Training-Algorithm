@@ -68,3 +68,11 @@ def AlgoDriverFunction():
 
 # =========starting the algorithm========
 AlgoDriverFunction()
+
+
+# =============Ttestingn for the output=========================
+x1 = input("Enter x1 :  ")
+x2 = input("Enter x2 : ")
+
+output = (int(x1)*int(w[0]) +(int(x2)*int(w[1]))+int(b))
+print(output)
