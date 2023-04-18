@@ -49,9 +49,9 @@ def AlgoDriverFunction():
 			y = calcuateY(x,w,b)
 			
 			#update weights w1 and w2
-			originalWeight1 = w[0]
-			originalWeight2= w[1]
-			originalBias= b
+			# originalWeight1 = w[0]
+			# originalWeight2= w[1]
+			# originalBias= b
 			updateWeight(targetclass[index],y,x[0],0)
 			updateWeight(targetclass[index],y,x[1],1) 
 			updateBias(targetclass[index],y)
@@ -63,7 +63,7 @@ def AlgoDriverFunction():
 		
 	print("\n \n Final value of w1=",w[0])
 	print("Final  values of w2=",w[1])
-	print(" Final weight values are w1=",b)
+	print(" Final weight of bias w1=",b)
 	print("\n\n")
 
 # =========starting the algorithm========
